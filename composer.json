@@ -1,0 +1,37 @@
+{
+  "name": "bkubicki/magento2-logger-utils",
+  "description": "Logger utils for Magento 2",
+  "type": "library",
+  "license": [
+    "MIT"
+  ],
+  "authors": [
+    {
+      "name": "Bartosz Kubicki",
+      "email": "b.w.kubicki@gmail.com"
+    }
+  ],
+  "version": "1.0.0",
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^7.2.0|~7.3.0",
+    "magento/framework": "^101.0|^102.0"
+  },
+  "keywords": [
+    "Magento2"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "BKubicki\\Logger\\": "src"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  ]
+}
